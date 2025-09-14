@@ -18,13 +18,20 @@ struct ContentView: View {
         Form {
             Section{
                 TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
-                    
+                
+                Picker("Number of people", selection: $numberOfPeople){
+                    ForEach(2..<100){
+                        Text("\($0) people")
+                    }
+                }
+                
             }
             Section {
                 Text(checkAmount, format: .currency(code:
                     Locale.current.currency?.identifier ?? "USD"))
             }
         }
+        .navigationTitle("WeSplit")
     }
 }
 
