@@ -40,16 +40,6 @@
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		BDB491382E6DFDD4009904ED /* WeSplitTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplitTests;
-			sourceTree = "<group>";
-		};
-		BDB491422E6DFDD4009904ED /* WeSplitUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplitUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +72,6 @@
 			children = (
 				BDA039CE2E7751040083F368 /* Review for Project 1.jpeg */,
 				BDB491292E6DFDD2009904ED /* WeSplit */,
-				BDB491382E6DFDD4009904ED /* WeSplitTests */,
-				BDB491422E6DFDD4009904ED /* WeSplitUITests */,
 				BDB491282E6DFDD2009904ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +124,6 @@
 			dependencies = (
 				BDB491372E6DFDD4009904ED /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BDB491382E6DFDD4009904ED /* WeSplitTests */,
-			);
 			name = WeSplitTests;
 			packageProductDependencies = (
 			);
@@ -158,9 +143,6 @@
 			);
 			dependencies = (
 				BDB491412E6DFDD4009904ED /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BDB491422E6DFDD4009904ED /* WeSplitUITests */,
 			);
 			name = WeSplitUITests;
 			packageProductDependencies = (
